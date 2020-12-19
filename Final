@@ -1,0 +1,12 @@
+SELECT "ID", "Visitor_Team", "Home_Team", "Visitor_Odd", "Draw_Odd", "Home_Odd", "Bookies_choice", "Visi_Team_PTS", "Home_Team_PTS", "True_Result", "Winner_Odd"
+	FROM public."BookiesTop5";
+SELECT "ID", "Home_Name", "Away_Name", "Home_Score", "Away_Score", "Final_Result"
+	FROM public."MatchResult";
+SELECT "ID", "Home_Name", "Away_Name", "Home_Odd", "Away_Odd", "Tie_Odd"
+	FROM public."MatchOdd";
+SELECT "UID", "Date", "Track", "Horse", "BetType", "Odds", "Result"
+	FROM public.horseracing;
+SELECT index, "Date", "Home Team", "Away Team", "Home Win", "Home Odds Open", "Away Odds Open"
+	FROM public.nfl_2006_to_2020_odds;
+SELECT index, "Fight_ID", "Red_Corner_Fighter", "Blue_Corner_Fighter", "Red_Fighter_odds", "Blue_Fighter_odds", "Winner", "Red_profit_on_a_100_credit_winnin_bet", "Blue_profit_on_a_100_credit_winnin_bet"
+	FROM public.ufc_transformed;Fia
